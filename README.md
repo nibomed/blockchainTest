@@ -1,14 +1,11 @@
-# Calculator Contract Interaction
+# Blockchain Calculator
 
-This repository contains code for interacting with a Calculator contract on the Sepolia Testnet using Metamask and web3.js.
-
-## About
-
-1. This repository, including this README file, was written by Bing AI.
-2. The author of the AI prompt has little to no knowledge about Metamask, UI, blockchain, etc.
-3. This code demonstrates how to interact with a smart contract on the Sepolia Testnet using Metamask and web3.js. It includes a simple user interface for performing math operations using a Calculator contract.
-4. This is a test task for a junior IT application.
+This is a simple blockchain calculator that allows users to perform basic arithmetic operations using an Ethereum smart contract. The calculator's user interface is built using HTML, CSS, and JavaScript, and it interacts with the Ethereum blockchain using the Metamask browser extension.
 
 ## Usage
 
-To use this code, you will need to have Metamask installed and connected to the Sepolia Testnet. You will also need to have some test ETH in your Metamask wallet to interact with the contract.
+To use the calculator, open the `index.html` file in your web browser. Make sure you have the Metamask browser extension installed and connected to the Sepolia Testnet. Enter two numbers into the input fields and select an operation from the dropdown menu. Click on the "Calculate" button to perform the calculation. The result will be displayed in the result field.
+
+## Credits
+
+99% of the code for this project was written by an AI language model from OpenAI as part of a test task for a junior role in Ukraine.

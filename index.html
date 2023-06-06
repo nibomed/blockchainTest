@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blockchain calculator</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Blockchain calculator</h1>
+      <input type="text" id="numberA" placeholder="Number a" />
+      <select id="operation">
+        <option value="" disabled selected>Select operation</option>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+      <input type="text" id="numberB" placeholder="Number b" />
+      <input type="text" id="result" placeholder="Result" readonly />
+      <button id="calculate" disabled>Calculate</button>
+      <input type="text" id="output" style="background-color: transparent; border: none;" readonly />
+    </div>
+    <script src="./calculator.js"></script>
+  </body>
+</html>

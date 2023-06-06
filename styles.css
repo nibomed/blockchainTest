@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+h1 {
+  color: #fff;
+  background-color: #00f;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+input,
+select,
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+input[readonly] {
+  background-color: #eee;
+}
+button {
+  background-color: #00f;
+  color: #fff;
+  border: none;
+}
+button:hover:not(:disabled) {
+  background-color: #0af;
+}
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
