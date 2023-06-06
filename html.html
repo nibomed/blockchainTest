@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Form</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bootstrap Form</h1>
+    <form>
+      <div class="form-group">
+        <label for="digitA">Digit A</label>
+        <input type="number" min="0" class="form-control" id="digitA" placeholder="digit a">
+      </div>
+      <div class="form-group">
+        <label for="operation">Operation</label>
+        <select class="form-control" id="operation">
+          <option selected disabled>Select an operation</option>
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="digitB">Digit B</label>
+        <input type="number" min="0" class="form-control" id="digitB" placeholder="digit b">
+      </div>
+      <div class="form-group">
+        <label for="result">Result</label>
+        <input type="number" min="0" class="form-control" id="result" placeholder="result" readonly>
+      </div>
+      <button type="button" class="btn btn-primary" id="calculateBtn" disabled>Calculate</button>
+    </form>
+    <p id="outputText"></p>
+  </div>
+
+  <!-- jQuery and Bootstrap JS -->
+  <script src="<URL>" integrity="<URL>" crossorigin="<URL>"></script><script src="<URL>" integrity="<URL>" crossorigin="<URL>"></script>
+
+  <!-- Custom JS -->
+  <script src="calculator.js"></script>
+</body>
+</html>
